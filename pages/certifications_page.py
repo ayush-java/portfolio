@@ -16,3 +16,7 @@ with st.expander("View Certificate"):
     st.image("images/AWSCloudPractionerSS.png")
 
 st.divider()
+
+st.subheader(":material/code: Python For Data Science & AI")
+with st.expander("View Certificate"):
+    st.image("Images/PythonForDataScienece&AI.jpeg")
