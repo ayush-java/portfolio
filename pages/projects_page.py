@@ -27,3 +27,11 @@ with st.expander("View Demo Video"):
     st.video("https://www.youtube.com/watch?v=ULDonbj5Z2w&t=5s")
 st.markdown("[🔗 View on GitHub](https://github.com/ayush-java/TarkAI-2025)")
 st.divider()
+
+st.header("🗂️ Stock Data Extractor (In Progress)")
+st.write("""
+The Python Project for Data Science focuses on analyzing company stocks and revenue by collecting stock prices with yfinance and scraping revenue data using BeautifulSoup.
+
+You then clean and visualize the data with Pandas and charts to build a dashboard that shows how stock trends compare with actual company performance. """)
+
+st.divider()

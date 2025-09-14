@@ -1,4 +1,5 @@
 import streamlit as st
+
 from pages.menu import pages
 
 st.set_page_config(layout="wide")
