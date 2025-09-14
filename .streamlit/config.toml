@@ -4,3 +4,6 @@ base = "dark"
 [client]
 showSidebarNavigation=true
 toolbarMode = "minimal"
+
+[server]
+enableStaticServing = true

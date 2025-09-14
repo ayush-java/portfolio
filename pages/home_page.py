@@ -6,7 +6,7 @@ st.title("👋 About Me!")
 st.divider()
 
 # Reduce image size to half using width argument
-st.image("images/portrait.jpg", width=350)
+st.image("static/portrait.jpg", width=350)
 
 st.write("""
 I’m a CS student at UT Dallas focused on AI/ML and Cloud. This portfolio highlights my projects, certifications, and an easy way to contact me.
