@@ -20,6 +20,6 @@ with open(resume_path, "rb") as f:
     st.download_button(
         label="Download Resume (PDF)",
         data=f,
-        file_name="Resume_Sep2025.pdf",
+        file_name="Resume_AyushVelhal_Sep2025.pdf",
         mime="application/pdf"
     )
