@@ -22,3 +22,16 @@ st.subheader(":material/code: Python For Data Science & AI")
 st.write("I successfully completed the Python for Data Science and AI course by IBM on August 31, 2025. This program gave me hands-on experience with Python libraries like Pandas, NumPy, and Matplotlib, while also introducing machine learning and AI applications. It strengthened my skills in applying Python to real-world data science problems and building AI-driven solutions.")
 with st.expander("View Certificate"):
     st.image("static/PythonForDataScienece&AI.jpeg")
+
+st.divider()
+
+st.subheader(":material/code: Generative AI: Prompt Engineering Basics")
+st.write(
+    "I successfully completed the **Generative AI: Prompt Engineering Basics** course by IBM on October 8, 2025. "
+    "This program taught me how to design clear and effective prompts to guide AI models for better responses. "
+    "I learned practical strategies for prompt crafting, refining outputs, and using generative AI responsibly to build smarter solutions."
+)
+with st.expander("View Certificate"):
+    st.image("static/promptEng.png")
+
+st.divider()
