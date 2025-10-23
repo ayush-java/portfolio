@@ -5,7 +5,7 @@ import base64
 st.title("📄 My Resume")
 st.divider()
 
-resume_path = os.path.join("static", "Resume_AyushVelhal_Sep2025.pdf")
+resume_path = os.path.join("static", "Ayush_D_Latest_Resume.pdf")
 
 # Display PDF inline using an iframe
 # with open(resume_path, "rb") as f:
@@ -20,6 +20,6 @@ with open(resume_path, "rb") as f:
     st.download_button(
         label="Download Resume (PDF)",
         data=f,
-        file_name="Resume_AyushVelhal_Sep2025.pdf",
+        file_name="Ayush_D_Latest_Resume.pdf",
         mime="application/pdf"
     )
