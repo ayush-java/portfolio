@@ -7,19 +7,11 @@ st.divider()
 
 resume_path = os.path.join("static", "Ayush_Velhal_Resume.pdf")
 
-# Display PDF inline using an iframe
-# with open(resume_path, "rb") as f:
-#     base64_pdf = base64.b64encode(f.read()).decode("utf-8")
-#     pdf_display = f'<iframe src="data:application/pdf;base64,{base64_pdf}" width="700" height="900" type="application/pdf"></iframe>'
-#     st.markdown(pdf_display, unsafe_allow_html=True)
-
-# st.pdf("static/LatestResume_AyushVelhal.pdf", height=600)
-
 # Download button
 with open(resume_path, "rb") as f:
     st.download_button(
         label="Download Resume (PDF)",
         data=f,
-        file_name="Ayush_Velhal_Resume.pdff",
+        file_name="Ayush_Velhal_Resume.pdf",
         mime="application/pdf"
     )
