@@ -5,13 +5,13 @@ import base64
 st.title("📄 My Resume")
 st.divider()
 
-resume_path = os.path.join("static", "Ayush_Velhal_Resume.pdf")
+resume_path = os.path.join("static", "Ayush_V_Nov2025Resume.pdf")
 
 # Download button
 with open(resume_path, "rb") as f:
     st.download_button(
         label="Download Resume (PDF)",
         data=f,
-        file_name="Ayush_Velhal_Resume.pdf",
+        file_name="Ayush_V_Nov2025Resume.pdf",
         mime="application/pdf"
     )
